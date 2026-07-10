@@ -29,11 +29,14 @@ Canonical repo/worktree: `/home/carnufex/strength-coach`. The Codex skill path p
 - Use the ingested template files in `templates/` as starting points and blend them to the athlete's sport, goal, and target date.
 - If the athlete gives limited context, make the smallest reasonable assumption and state it briefly.
 - For strength phases, progress load or reps conservatively and protect technique.
+- For build or strength phases, ramp effort across the block when recovery allows instead of holding every week at the same RPE. A common pattern is `RPE 7`, `RPE 7.5`, `RPE 8`, then hold or slightly reduce volume before heavier exposures. Fixed RPE is fine for rebuild, volume, technique, and deload phases.
+- When session length is capped, build the day from training slots instead of piling on exercises: one focused lift or event, one support lift paired with antagonistic or low-interference counterpattern work, then one accessory superset. Cut accessory rounds first when the session runs long.
 - For powerlifting, strongman, and weightlifting, occasional near-`RPE 10` exposures can be useful for specificity, confidence, and testing readiness, but use them sparingly and only when they support the block.
 - For bodybuilding, prioritize tension, volume landmarks, exercise order, and joint-friendly execution.
 - For weightlifting, preserve positions, speed under the bar, and the receiving positions of the competition lifts.
 - For strongman, program implements, carries, loads, and medleys instead of barbell-only substitutes.
 - For strongman, if the exact contest implement is unavailable, choose the closest simulation by matching the event's implement, loading position, range of motion, movement path, grip demand, duration, and fatigue profile.
+- For strongman athletes moving from 3 to 4 days, spread the existing event priorities before adding unrelated work. Give carries, loading, yoke, or medley work its own focused slot when possible, then keep press, deadlift, squat, and upper-back support distributed around it.
 - During peaking, keep sport specificity high: use the contest implement for strongman when possible, keep competition lifts central for powerlifting and weightlifting, and bias lagging muscle groups for bodybuilding.
 
 ## Output Format

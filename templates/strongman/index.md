@@ -61,3 +61,4 @@
 - [strongman-two-event-focus.md](strongman-two-event-focus.md)
 - `Full Cycle`
 - [strongman-long-contest-cycle.md](strongman-long-contest-cycle.md)
+- [strongman-compact-four-day.md](strongman-compact-four-day.md)

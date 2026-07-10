@@ -154,6 +154,7 @@ const templateGroups = [
       { name: "Strongman press focus", file: "templates/strongman/strongman-press-focus.md" },
       { name: "Strongman deadlift focus", file: "templates/strongman/strongman-deadlift-focus.md" },
       { name: "Strongman medley block", file: "templates/strongman/strongman-medley-block.md" },
+      { name: "Strongman compact four day", file: "templates/strongman/strongman-compact-four-day.md" },
     ],
   },
   {
