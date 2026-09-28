@@ -1,335 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A gym-floor map for the strength-coach skill, its references, templates, and contribution path.">
-  <meta name="theme-color" content="#bf3b22">
-  <meta property="og:title" content="Strength Coach Atlas">
-  <meta property="og:description" content="Explore the strength-coach skill, its references, templates, and contribution path.">
-  <title>Strength Coach Atlas</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Complete strength training plans with weekly sessions, exercise notes, muscle work, and Excel logs.">
+  <meta name="theme-color" content="#1b1510">
+  <title>Strength Coach | Training Plans</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="backdrop backdrop--grid" aria-hidden="true"></div>
-  <div class="backdrop backdrop--rings" aria-hidden="true"></div>
-
   <div class="page">
-    <header class="hero" id="top">
-      <nav class="topbar" aria-label="Primary">
-        <a class="brand" href="#top">Strength Coach</a>
-        <div class="topbar__links">
-          <a href="#how">How it works</a>
-          <a href="#knowledge">Knowledge</a>
-          <a href="#lanes">Lanes</a>
-          <a href="#templates">Templates</a>
-          <a href="#generated-programs">Generated programs</a>
-          <a href="#contribute">Add knowledge</a>
-          <a href="#console">Console</a>
-        </div>
-      </nav>
-
-      <div class="hero__grid">
-        <div class="hero__copy">
-          <p class="eyebrow">GitHub Pages lifting dungeon</p>
-          <h1>Strength Coach</h1>
-          <p class="lede">
-            A plate-loaded map of the <code>strength-coach</code> skill: how it thinks, what it reads, and where new coaching material belongs.
-          </p>
-
-          <p class="hero__note">
-            The source of truth stays in
-            <a href="https://github.com/ryanbieber/strength-coach/blob/main/SKILL.md" target="_blank" rel="noreferrer">SKILL.md</a>,
-            references, and templates.
-          </p>
-
-          <div class="hero__actions">
-            <a class="button button--primary" href="#knowledge">Open the vault</a>
-            <a class="button button--primary" href="#console">Build a brief</a>
-            <a class="button" href="#contribute">Add knowledge</a>
-          </div>
-
-          <ul class="hero__bullets" aria-label="Core rules">
-            <li>Ask only for details that change the plan.</li>
-            <li>Pick the pattern before the exercise.</li>
-            <li>Write work as <code>sets x reps @ RPE</code>.</li>
-            <li>Default carries to feet.</li>
-          </ul>
-
-          <div class="hero__meters" aria-label="Skill coverage">
-            <div>
-              <strong>5</strong>
-              <span>sport lanes</span>
-            </div>
-            <div>
-              <strong>30+</strong>
-              <span>templates</span>
-            </div>
-            <div>
-              <strong>PR</strong>
-              <span>knowledge path</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero__platewall">
-          <div class="gym-sign" aria-hidden="true">
-            <span>Open Gym</span>
-            <strong>Knowledge Vault</strong>
-          </div>
-          <div class="barbell">
-            <span class="plate plate--xl"></span>
-            <span class="plate plate--lg"></span>
-            <span class="plate plate--md"></span>
-            <span class="sleeve"></span>
-            <span class="plate plate--md"></span>
-            <span class="plate plate--lg"></span>
-            <span class="plate plate--xl"></span>
-          </div>
-          <div class="hero__callout">
-            <strong>Default bias:</strong>
-            <span>Most work lives at RPE 7-9. RPE 10 stays rare and planned.</span>
-          </div>
-          <div class="plate-stack" aria-hidden="true">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+    <header class="topbar">
+      <a class="brand" href="#top">Strength Coach</a>
+      <nav aria-label="Primary"><a href="#programs">Programs</a><a href="#using">How to use them</a></nav>
     </header>
-
-    <main>
-      <section class="section" id="how">
-        <div class="section__heading">
-          <p class="eyebrow">How it works</p>
-          <h2>Coach logic in five steps</h2>
-          <p class="section__lede">
-            Intake, pattern, template, dose, peak. That is the whole loop.
-          </p>
-        </div>
-        <div id="how-grid" class="card-grid"></div>
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">STRENGTH COACH</p>
+        <h1 id="page-title">Training programs</h1>
+        <p class="lead">Three complete programs. Open one to see the weekly sessions, exercise prescriptions, and progression. Download its Excel log to track your training.</p>
+        <a class="button" href="#programs">See the programs</a>
       </section>
-
-      <section class="section" id="rules">
-        <div class="section__heading">
-          <p class="eyebrow">Rulebook</p>
-          <h2>The short rulebook</h2>
-          <p class="section__lede">
-            Enough structure to stay specific without turning every answer into a lecture.
-          </p>
-        </div>
-        <div id="rules-grid" class="card-grid card-grid--three"></div>
-      </section>
-
-      <section class="section section--vault" id="knowledge">
-        <div class="section__heading">
-          <p class="eyebrow">Knowledge vault</p>
-          <h2>Files that feed the coach</h2>
-          <p class="section__lede">
-            Reference rules, sport notes, templates, and the PR path.
-          </p>
-        </div>
-        <div id="knowledge-grid" class="knowledge-grid"></div>
-      </section>
-
-      <section class="section" id="lanes">
-        <div class="section__heading">
-          <p class="eyebrow">Sport lanes</p>
-          <h2>Where the bar points</h2>
-          <p class="section__lede">
-            Pick the athlete's lane first; the pattern and templates follow.
-          </p>
-        </div>
-        <div id="lanes-grid" class="lane-grid"></div>
-      </section>
-
-      <section class="section" id="templates">
-        <div class="section__heading">
-          <p class="eyebrow">Template rack</p>
-          <h2>Templates the skill blends</h2>
-          <p class="section__lede">
-            Representative archetypes, linked straight to GitHub.
-          </p>
-        </div>
-        <div id="templates-grid" class="template-grid"></div>
-      </section>
-
-      <section class="section" id="generated-programs">
-        <div class="section__heading">
-          <p class="eyebrow">Generated programs</p>
-          <h2>Example outputs</h2>
-          <p class="section__lede">
-            Finished programs kept as examples and downloadable logs.
-          </p>
-        </div>
-        <div id="generated-programs-grid" class="generated-grid"></div>
-      </section>
-
-      <section class="section" id="console">
-        <div class="section__heading">
-          <p class="eyebrow">Interrogate the skill</p>
-          <h2>Build a coach brief</h2>
-          <p class="section__lede">
-            Fill the fields that change the plan. The panel gives the lane, template family, and next question.
-          </p>
-        </div>
-
-        <div class="console">
-          <form id="brief-form" class="brief-form">
-            <div class="brief-form__presets" aria-label="Quick presets">
-              <button type="button" class="chip" data-preset="base">Off-season base</button>
-              <button type="button" class="chip" data-preset="meet">Powerlifting meet</button>
-              <button type="button" class="chip" data-preset="contest">Strongman contest</button>
-              <button type="button" class="chip" data-preset="hypertrophy">Hypertrophy block</button>
-            </div>
-
-            <div class="brief-form__grid">
-              <label class="field">
-                <span>Sport</span>
-                <select name="sport">
-                  <option value="general-strength">General strength</option>
-                  <option value="powerlifting">Powerlifting</option>
-                  <option value="strongman">Strongman</option>
-                  <option value="weightlifting">Weightlifting</option>
-                  <option value="bodybuilding">Bodybuilding</option>
-                </select>
-              </label>
-
-              <label class="field">
-                <span>Objective</span>
-                <select name="objective">
-                  <option value="base">Base building</option>
-                  <option value="build">Build phase</option>
-                  <option value="peak">Peak</option>
-                  <option value="contest-prep">Contest prep</option>
-                  <option value="hypertrophy">Hypertrophy</option>
-                  <option value="weak-point">Weak point focus</option>
-                  <option value="general">General improvement</option>
-                </select>
-              </label>
-
-              <label class="field field--wide">
-                <span>Timeline or date</span>
-                <input name="timeline" type="text" placeholder="Meet date, contest date, or training window">
-              </label>
-
-              <label class="field">
-                <span>Equipment</span>
-                <select name="equipment">
-                  <option value="full-gym">Full gym</option>
-                  <option value="barbell-only">Barbell only</option>
-                  <option value="home-gym">Home gym</option>
-                  <option value="implements">Strongman implements</option>
-                  <option value="machines-cables">Machines and cables</option>
-                  <option value="mixed">Mixed / limited</option>
-                </select>
-              </label>
-
-              <label class="field">
-                <span>Days per week</span>
-                <select name="days">
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                </select>
-              </label>
-
-              <label class="field">
-                <span>Session length</span>
-                <select name="session">
-                  <option value="60">60 minutes</option>
-                  <option value="75">75 minutes</option>
-                  <option value="90">90 minutes</option>
-                  <option value="120">120 minutes</option>
-                </select>
-              </label>
-
-              <label class="field field--wide">
-                <span>Best lifts or proxy lifts</span>
-                <textarea name="bests" rows="3" placeholder="Squat 405, bench 275, deadlift 495; or closest proxy lifts if exact lifts are not available"></textarea>
-              </label>
-
-              <label class="field field--wide">
-                <span>Recovery, injuries, eating, or tolerance limits</span>
-                <textarea name="limits" rows="3" placeholder="Shoulder irritation on pressing, low sleep, heavy deadlifts beat me up, hard to eat enough"></textarea>
-              </label>
-
-              <label class="field field--wide">
-                <span>Extra notes</span>
-                <textarea name="notes" rows="3" placeholder="Anything else that matters for the block"></textarea>
-              </label>
-            </div>
-          </form>
-
-          <aside class="brief-output" aria-live="polite">
-            <div class="brief-output__header">
-              <p class="eyebrow">Suggested brief</p>
-              <h3 id="brief-title">General strength base</h3>
-            </div>
-
-            <div id="brief-summary" class="brief-output__summary"></div>
-
-            <label class="field brief-output__copy">
-              <span>Copy-ready prompt</span>
-              <textarea id="brief-copy" rows="10" readonly></textarea>
-            </label>
-
-            <div class="brief-output__actions">
-              <button type="button" class="button button--primary" id="copy-brief">Copy brief</button>
-              <button type="button" class="button" id="copy-link">Copy share link</button>
-            </div>
-          </aside>
+      <section id="programs" class="programs" aria-labelledby="programs-title">
+        <div class="section-heading"><p class="eyebrow">THE PROGRAMS</p><h2 id="programs-title">Available programs</h2><p>Read the plan before you train. Adjust the load to the prescribed RPE. Keep the exercise order unless equipment or recovery forces a change.</p></div>
+        <div class="cards">
+          <article class="card"><p class="card-type">STRONGMAN · 12 WEEKS · 4 DAYS</p><h3>RPE pyramid</h3><p>Log, deadlift, and squat top sets move from sixes to fives to triples. Backoff work follows the day's effort. Upper back and pressing work fill the week without turning every session into an event day.</p><div class="card-links"><a class="button" href="plans/strongman-rpe-pyramid.html">Open plan</a><a class="text-link" href="assets/generated-programs/12_week_strongman_4_day_rpe_pyramid_program.xlsx" download>Excel log</a></div></article>
+          <article class="card"><p class="card-type">STRONGMAN · 12 WEEKS · 4 DAYS</p><h3>Four-day rebuild</h3><p>A steady return to four training days. The main lifts and event work have their own places in the week. Build useful work first, then push intensity when the training supports it.</p><div class="card-links"><a class="button" href="plans/strongman-rebuild.html">Open plan</a><a class="text-link" href="assets/generated-programs/12_week_strongman_program.xlsx" download>Excel log</a></div></article>
+          <article class="card"><p class="card-type">BODYBUILDING · 4 WEEKS · 4 DAYS</p><h3>Priority muscle block</h3><p>Train hamstrings and side delts twice a week while keeping the rest of the body moving. Three weeks build effort. The fourth backs off so the next block starts fresh.</p><div class="card-links"><a class="button" href="plans/bodybuilding-priority-block.html">Open plan</a><a class="text-link" href="assets/generated-programs/bodybuilding-priority-block.xlsx" download>Excel log</a></div></article>
         </div>
       </section>
-
-      <section class="section" id="sources">
-        <div class="section__heading">
-          <p class="eyebrow">Source map</p>
-          <h2>Canonical files</h2>
-          <p class="section__lede">
-            Use these when the summary is not enough.
-          </p>
-        </div>
-        <div id="source-grid" class="source-grid"></div>
-      </section>
-
-      <section class="section section--contribute" id="contribute">
-        <div class="contribute-panel">
-          <div>
-            <p class="eyebrow">Add knowledge</p>
-            <h2>Add coaching material by PR</h2>
-            <p class="section__lede">
-              Add Markdown under <code>references/</code> or <code>templates/</code>, link it from an index, and open a pull request.
-            </p>
-          </div>
-          <ol class="contribute-steps">
-            <li>Fork or branch the repo.</li>
-            <li>Add the file.</li>
-            <li>Link it from the right index.</li>
-            <li>Open a PR with the coaching use case.</li>
-          </ol>
-          <div class="contribute-actions">
-            <a class="button button--primary" href="https://github.com/ryanbieber/strength-coach/compare" target="_blank" rel="noreferrer">Open a PR</a>
-            <a class="button" href="https://github.com/ryanbieber/strength-coach/tree/main/templates" target="_blank" rel="noreferrer">Template folders</a>
-            <a class="button" href="https://github.com/ryanbieber/strength-coach/tree/main/references" target="_blank" rel="noreferrer">Reference folders</a>
-          </div>
-        </div>
-      </section>
+      <section id="using" class="using" aria-labelledby="using-title"><div><p class="eyebrow">USE THE PLAN</p><h2 id="using-title">How to use these plans</h2></div><div><p>Open a plan and choose a week. The exercise notes tell you what each lift is doing. The body map shows planned direct and supporting work; it does not measure muscle activation or recovery.</p><p>If the schedule flags hard work close together, look at your performance, soreness, and sleep before changing the plan. Download the Excel log and record loads, reps, and notes each session. An adjustment made in the HTML does not change the downloaded workbook.</p><p class="fine">These plans are educational examples, not medical advice. Get clearance from a qualified clinician before starting a full training plan.</p></div></section>
     </main>
-
-    <footer class="footer">
-      <p>
-        Built from the <code>strength-coach</code> corpus. Canonical files live in the repo.
-      </p>
-    </footer>
+    <footer><span>Strength Coach</span><a href="https://github.com/ryeceps/strength-coach">Source and templates</a></footer>
   </div>
-
-  <script src="app.js" defer></script>
 </body>
 </html>
