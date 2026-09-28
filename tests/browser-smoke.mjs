@@ -54,8 +54,10 @@ try {
   await page.close();
   const site = await browser.newPage();
   await site.goto(pathToFileURL(path.join(root, "site/index.html")).href);
-  assert.equal(await site.locator(".card").count(), 3);
-  assert.equal(await site.locator(".card a:has-text('Open plan')").count(), 3);
+  assert.equal(await site.locator(".card").count(), 2);
+  assert.equal(await site.locator(".chart-row").count(), 12);
+  assert.match(await site.locator("#current-program").textContent(), /AMRAP top set/i);
+  assert.equal(await site.locator(".card a:has-text('Open plan')").count(), 2);
   await site.locator("#programs").screenshot({ path: path.join(previewDir, "gallery.png") });
   await site.close();
   for (const [name, width, height] of [["site-phone", 390, 844], ["site-tablet", 820, 1100]]) {
@@ -70,4 +72,3 @@ try {
 } finally {
   await browser.close();
 }
-

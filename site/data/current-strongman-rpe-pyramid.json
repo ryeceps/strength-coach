@@ -1,0 +1,2976 @@
+{
+  "schemaVersion": 1,
+  "id": "strongman-rpe-pyramid-amrap",
+  "title": "12-week strongman RPE pyramid with AMRAP top sets",
+  "sport": "Strongman",
+  "objective": "Home-gym strength build",
+  "summary": "Four days a week: log, deadlift, squat, and upper back. Main lifts use one AMRAP top set in work weeks, then fixed backoff sets.",
+  "rationale": "The main lifts wave through six-, five-, and three-rep minimums. The AMRAP top set stops by RPE 9 or when technique slips. Pivot and deload weeks stay easy. Add a small amount of load in the next matching wave only when reps improve without passing the cap. If deadlift AMRAP work hurts the next squat day, cap deadlift at RPE 8-8.5 or stop at the minimum reps.",
+  "goals": [
+    "Keep log, deadlift, and back squat as the measurable priorities.",
+    "Vary top-set reps without singles.",
+    "Protect the lower back and fit sessions into 45–60 minutes.",
+    "Use the AMRAP top set to measure progress without grinding to failure."
+  ],
+  "priorityMuscles": [
+    "upper-back",
+    "hamstrings",
+    "quads"
+  ],
+  "maxExercisesPerDay": 4,
+  "assumptions": [
+    "This is a general strongman block without a dated contest or required carry event.",
+    "Equipment includes a log, barbell, rack, bench, Slingshot, and stable low-cable row setup.",
+    "The top set and backoffs count as working sets; warm-up ramps do not.",
+    "AMRAP applies only to the top set in work weeks; stop by RPE 9 and leave about one rep in reserve."
+  ],
+  "sources": [
+    {
+      "label": "Detailed source template",
+      "url": "https://github.com/ryeceps/strength-coach/blob/main/templates/strongman/strongman-rpe-pyramid-four-day.md"
+    },
+    {
+      "label": "Original fixed-top-set workbook used as the base plan",
+      "url": "https://github.com/ryeceps/strength-coach/blob/main/assets/generated-programs/12_week_strongman_4_day_rpe_pyramid_program.xlsx"
+    }
+  ],
+  "mesocycles": [
+    {
+      "title": "Volume and rhythm",
+      "focus": "Volume and rhythm",
+      "rationale": "Six-, five-, and three-rep exposures followed by a lower-volume pivot.",
+      "weeks": [
+        {
+          "number": 1,
+          "phase": "Volume Wave 1",
+          "focus": "Top 6 @ RPE 8",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "phase": "Volume Wave 1",
+          "focus": "Top 5 @ RPE 8.5",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "phase": "Volume Wave 1",
+          "focus": "Top 3 @ RPE 9",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "phase": "Pivot",
+          "focus": "Pivot RPE 6-7",
+          "note": "Top sets are RPE-capped. Move to the backoff work without chasing a missed number.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "2 x 5 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 7.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 1-2 x 12-15 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "2 x 5 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 2 x 6 @ RPE 6-7 + dead bug 2 x 8/side @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 7.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown 1 x 12 @ RPE 6.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 6.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 2 x 6-8 @ RPE 6-7; strict torso.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 7.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height shrug 1-2 x 8 @ RPE 6-7 + cable rear fly 1 x 12 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "2 x 5 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 7.0,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 1-2 x 10 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Build and vary",
+      "focus": "Build and vary",
+      "rationale": "Repeat the wave with progression only when recovery and technique support it.",
+      "weeks": [
+        {
+          "number": 5,
+          "phase": "Volume Wave 2",
+          "focus": "Top 6 @ RPE 8",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 6+ AMRAP @ RPE 8-9; backoff 2 x 6 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "phase": "Volume Wave 2",
+          "focus": "Top 5 @ RPE 8.5",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8.5-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "phase": "Volume Wave 2",
+          "focus": "Top 3 @ RPE 9",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 3 x 6-8 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 8-10 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 3 x 3-5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 2 x 3 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 3 x 5-8 @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "phase": "Pivot",
+          "focus": "Pivot RPE 6-7",
+          "note": "Top sets are RPE-capped. Move to the backoff work without chasing a missed number.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "2 x 4 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 7.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 1-2 x 12-15 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "2 x 4 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 2 x 6 @ RPE 6-7 + dead bug 2 x 8/side @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 7.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown 1 x 12 @ RPE 6.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 6.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 2 x 6-8 @ RPE 6-7; strict torso.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 7.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height shrug 1-2 x 8 @ RPE 6-7 + cable rear fly 1 x 12 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "2 x 4 @ RPE 6-7; no top set.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 7.0,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 1-2 x 10 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Specific work and deload",
+      "focus": "Specific work and deload",
+      "rationale": "Heavy triples stay controlled; week 12 is a deload or one optional controlled test.",
+      "weeks": [
+        {
+          "number": 9,
+          "phase": "Specific Wave",
+          "focus": "Top 5 @ RPE 8",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5-6 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 6-8 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 5+ AMRAP @ RPE 8-9; backoff 2 x 5 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "phase": "Specific Wave",
+          "focus": "Top 4 @ RPE 8.5",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 4+ AMRAP @ RPE 8.5-9; backoff 2 x 4 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5-6 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 4+ AMRAP @ RPE 8.5-9; backoff 2 x 4 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 6-8 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3-5 @ RPE 7; top 1 x 4+ AMRAP @ RPE 8.5-9; backoff 2 x 4 @ RPE 7-8.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "phase": "Specific Wave",
+          "focus": "Top 3 @ RPE 9",
+          "note": "Main lift top sets are AMRAP: reach the listed minimum reps, then stop by RPE 9 or when technique slows. Backoffs stay fixed. Leave pivot and deload weeks easy. On the next matching rep week, add a small amount of load only if you beat the minimum reps within the cap.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 1 x 3 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5-6 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 8.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 2-3 x 12-20 @ RPE 7-8; optional cable curl.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 1 x 3 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed. If this blunts the next squat day, stop at RPE 8-8.5 or at the minimum reps.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 3 x 6-10 @ RPE 7-8 + dead bug 3 x 8-12/side @ RPE 7.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown or rear fly 2 x 12-20 @ RPE 7; skip if recovery is limited.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 7.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 3 x 6-8 @ RPE 7-8; strict torso.",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 8.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height barbell shrug 2-3 x 8-12 @ RPE 7-8 + cable rear fly or face pull 2 x 12-20 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 8.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Ramp 5 @ RPE 6, 3 @ RPE 7, 3 @ RPE 8; top 1 x 3+ AMRAP @ RPE 9 cap; backoff 1 x 3 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles. AMRAP only on the top set: start with a load that puts the minimum reps near the listed RPE; stop by RPE 9 or when form breaks. If you miss the minimum, reduce load next time. Backoffs are fixed.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 2-3 x 8-15 @ RPE 7-8.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 8.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "phase": "Deload / Controlled Test",
+          "focus": "Deload RPE 6-7; optional one triple @9",
+          "note": "Top sets are RPE-capped. Move to the backoff work without chasing a missed number.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Clean + Press",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Log clean and press - clean every rep",
+                  "prescription": "Default 2 x 3 @ RPE 6-7; if recovered, test ONE priority lift: 1 x 3 @ RPE 9.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9.0,
+                  "note": "Clean every rep. Top set is RPE-capped; lower load for backoffs. No singles.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Raw flat bench press",
+                  "prescription": "Raw flat bench 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Build the bench without taking work away from the event lift.",
+                  "rpe": 7.0,
+                  "note": "Bench raw after log. Keep enough in reserve for Day 3 and Day 4 pressing."
+                },
+                {
+                  "name": "Cable face pull/rear fly",
+                  "prescription": "Cable face pull or rear fly 1-2 x 12-15 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Use the single-stack pulley; cut this slot first if time runs long."
+                }
+              ]
+            },
+            {
+              "weekday": 1,
+              "title": "Deadlift Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Default 2 x 3 @ RPE 6-7; if recovered, test ONE priority lift: 1 x 3 @ RPE 9.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9.0,
+                  "note": "Top set is RPE-capped. Preserve lower-back recovery for Day 4; no singles.",
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Bridge hamstring walkout + dead bug",
+                  "prescription": "Bridge hamstring walkout 2 x 6 @ RPE 6-7 + dead bug 2 x 8/side @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "hamstrings",
+                    "abs"
+                  ],
+                  "secondaryMuscles": [
+                    "glutes"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 7.0,
+                  "note": "No loaded hinge after deadlift. Shorten the walkout if the full version is too hard."
+                },
+                {
+                  "name": "Optional cable pressdown/rear fly",
+                  "prescription": "Optional cable pressdown 1 x 12 @ RPE 6.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "triceps",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true,
+                  "rpe": 6.0,
+                  "note": "Optional low-fatigue cable work; skip if recovery is limited."
+                }
+              ]
+            },
+            {
+              "weekday": 3,
+              "title": "Upper Back + Slingshot",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Seated low-cable row",
+                  "prescription": "Seated low-cable row 2 x 6-8 @ RPE 6-7; strict torso.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Brace feet on a fixed rack crossmember or mounted footplate, never loose equipment. Stay upright; stop if low back limits the set.",
+                  "cue": "Brace the feet on a fixed support and pull without rocking the torso.",
+                  "alternatives": [
+                    "Supported one-arm cable row if no stable foot brace exists"
+                  ]
+                },
+                {
+                  "name": "Close-grip Slingshot bench",
+                  "prescription": "Close-grip Slingshot bench 2 x 3-5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts"
+                  ],
+                  "reason": "Add close-grip press work after the upper-back work.",
+                  "rpe": 7.0,
+                  "note": "Assisted RPE only; do not compare load with raw bench. No max test.",
+                  "cue": "Judge effort on the assisted lift rather than comparing its load with raw bench."
+                },
+                {
+                  "name": "Rack-height barbell shrug + cable rear fly",
+                  "prescription": "Upright rack-height shrug 1-2 x 8 @ RPE 6-7 + cable rear fly 1 x 12 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "rear-delts"
+                  ],
+                  "secondaryMuscles": [
+                    "forearms"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "rpe": 7.0,
+                  "note": "Start bar at thigh height and stay upright. Omit shrugs if the low back is taxed."
+                }
+              ]
+            },
+            {
+              "weekday": 5,
+              "title": "Back Squat Priority",
+              "focus": "Focused lift, support, then accessory; cut accessory work first if time runs long.",
+              "exercises": [
+                {
+                  "name": "Barbell back squat",
+                  "prescription": "Default 2 x 3 @ RPE 6-7; if recovered, test ONE priority lift: 1 x 3 @ RPE 9.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Make the squat a main lift and track it each week.",
+                  "rpe": 9.0,
+                  "note": "Use your normal stance and bar position. Top set is RPE-capped; no singles.",
+                  "cue": "Use the normal stance and depth; maintain the brace out of the bottom.",
+                  "alternatives": [
+                    "Safety-bar squat if the bar position is not tolerated"
+                  ]
+                },
+                {
+                  "name": "Log clean once, press away",
+                  "prescription": "Log clean once, press away 2 x 5 @ RPE 6-7.",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "note": "Clean once per set, then press away. Technique volume lighter than Day 1.",
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Cable pulldown/face pull",
+                  "prescription": "Cable pulldown or face pull 1-2 x 10 @ RPE 6-7.",
+                  "sets": 1,
+                  "primaryMuscles": [
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "biceps",
+                    "rear-delts"
+                  ],
+                  "reason": "Build the upper back for pressing and carries.",
+                  "rpe": 7.0,
+                  "note": "Use the high pulley if available; face pulls work at a suitable cable height."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
