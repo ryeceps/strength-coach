@@ -21,6 +21,7 @@
 - When converting a 3-day block to 4 days, move carries, loading, yoke, or medley work to its own focused day before adding more accessories.
 - Keep volume or rebuild phases steady if needed, but ramp build phases week to week. Example: `RPE 7`, `RPE 7.5`, `RPE 8`, then hold intensity with cleaner work or slightly reduced volume before heavier triples.
 - In heavy-triple phases, ramp top sets instead of maxing early: `RPE 8`, `RPE 8.5`, `RPE 9`. Keep singles out unless the athlete specifically needs them for contest rehearsal.
+- For athletes who prefer more variety after a fixed-volume block, use a top-set-and-backoff wave rather than repeating identical straight sets. The four-day RPE pyramid template shows six-, five-, and three-rep top sets at RPE 8, 8.5, and 9, followed by backoffs at RPE 7-8. Its home-gym version has seated low-cable rows, close-grip Slingshot bench, and rack-height shrugs on Day 3 in place of carries. Day 1 retains raw flat bench after log clean and press; Day 2 uses hamstring walkouts to spare the lower back after deadlifts. If a contest includes carries, add event-specific practice in a later prep block.
 
 ## Contest Prep
 - Build the block so it peaks at the contest date.

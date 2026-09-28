@@ -10,6 +10,7 @@ This repo powers the `strength-coach` skill. It turns a lifting goal, event time
 - Treat `RPE 7-9` as the normal working range for most productive sets.
 - Use near-`RPE 10` sparingly for powerlifting, strongman, and weightlifting when specificity, readiness, or competition practice call for it.
 - Use the closest event-specific implement or a close simulation when the exact equipment is missing.
+- For a four-day strongman follow-on with a faster RPE ramp and more variety, use the [RPE pyramid cycle](./templates/strongman/strongman-rpe-pyramid-four-day.md): log, deadlift, and back-squat top sets of six, five, and three reps; RPE-led backoffs; raw bench after log; and a home-gym upper-back day with seated low-cable rows, close-grip Slingshot bench, and shrugs instead of carries. The matching workbook is in [`assets/generated-programs/`](./assets/generated-programs/12_week_strongman_4_day_rpe_pyramid_program.xlsx).
 
 ## How it works
 

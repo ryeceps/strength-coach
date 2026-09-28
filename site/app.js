@@ -155,6 +155,7 @@ const templateGroups = [
       { name: "Strongman deadlift focus", file: "templates/strongman/strongman-deadlift-focus.md" },
       { name: "Strongman medley block", file: "templates/strongman/strongman-medley-block.md" },
       { name: "Strongman compact four day", file: "templates/strongman/strongman-compact-four-day.md" },
+      { name: "Strongman RPE pyramid four day", file: "templates/strongman/strongman-rpe-pyramid-four-day.md" },
     ],
   },
   {
@@ -266,6 +267,25 @@ const knowledgeShelves = [
 ];
 
 const generatedPrograms = [
+  {
+    title: "12-week strongman RPE pyramid",
+    eyebrow: "Strongman · 4 days/week",
+    summary: "A home-gym follow-on cycle with 6/5/3 log, deadlift, and back-squat waves, raw bench, and an upper-back day with close-grip Slingshot bench.",
+    generated: "2026-09-27",
+    constraints: [
+      "Top sets stop at triples; no singles",
+      "RPE 8, 8.5, and 9 top sets with RPE 7-8 backoffs",
+      "Four 45-60 minute sessions with rack, bench, barbell, log, and cable stack",
+      "Raw bench on Day 1; close-grip Slingshot support on Day 3",
+    ],
+    split: [
+      "Day 1: Clean-each-rep log pyramid, raw flat bench, cable upper back",
+      "Day 2: Deadlift pyramid, hamstring walkouts, abs",
+      "Day 3: Seated low-cable rows, close-grip Slingshot bench, rack shrugs and cable rear delts",
+      "Day 4: Back squat pyramid, clean-once log press, cable back work",
+    ],
+    download: "assets/generated-programs/12_week_strongman_4_day_rpe_pyramid_program.xlsx",
+  },
   {
     title: "12-week strongman rebuild",
     eyebrow: "Strongman · 3 days/week",

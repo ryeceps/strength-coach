@@ -37,6 +37,7 @@ Canonical repo/worktree: `/home/carnufex/strength-coach`. The Codex skill path p
 - For strongman, program implements, carries, loads, and medleys instead of barbell-only substitutes.
 - For strongman, if the exact contest implement is unavailable, choose the closest simulation by matching the event's implement, loading position, range of motion, movement path, grip demand, duration, and fatigue profile.
 - For strongman athletes moving from 3 to 4 days, spread the existing event priorities before adding unrelated work. Give carries, loading, yoke, or medley work its own focused slot when possible, then keep press, deadlift, squat, and upper-back support distributed around it.
+- When a strongman athlete finds fixed-volume weeks or heavy triples repetitive, consider the four-day RPE pyramid in `templates/strongman/strongman-rpe-pyramid-four-day.md`: ramp to one top set, back off at a lower RPE, and vary top-set reps across weeks. Its home-gym version uses seated low-cable rows, close-grip Slingshot bench, and rack-height shrugs on Day 3 instead of carries or unsupported rows. Keep raw bench after Day 1 log work and protect lower-back recovery after deadlifts. If the athlete requests no singles, keep the top set at three reps or more.
 - During peaking, keep sport specificity high: use the contest implement for strongman when possible, keep competition lifts central for powerlifting and weightlifting, and bias lagging muscle groups for bodybuilding.
 
 ## Output Format
