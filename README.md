@@ -24,13 +24,13 @@ This repo powers the `strength-coach` skill. It turns a lifting goal, event time
 
 The repo now includes a GitHub Pages front-end in [`site/`](./site/) with a matching deployment workflow in [`.github/workflows/pages.yml`](./.github/workflows/pages.yml).
 
-The site is intentionally gym-themed and includes:
+The site is a plain program library. It links to three complete interactive plans and their Excel logs. Each plan shows every week and session, exercise notes, muscle work, and schedule checks. The original strongman workbooks remain available.
 
-- a short overview of how the skill works
-- the intake order and programming rules
-- sport lane cards for general strength, powerlifting, strongman, weightlifting, and bodybuilding
-- a template rack that links to the underlying markdown files
-- a simple brief builder that turns a few inputs into a copy-ready coaching prompt
+## Interactive program documents
+
+For a complete multi-day program, the skill now authors one structured JSON plan and produces both an interactive HTML document and an Excel workbook. The HTML contains the full mesocycle, exercise explanations, front/back muscle map, cautious recovery and coverage review, and previewable adjustments. The workbook remains an editable training log. See [program-doc/README.md](./program-doc/README.md) for the schema, renderer commands, and interpretation limits.
+
+The gallery hosts the two existing 12-week strongman workbooks as interactive plans plus a four-week bodybuilding example. The original strongman Excel files remain available.
 
 For a local preview, serve the `site/` folder with any static server.
 
@@ -80,7 +80,7 @@ Keep most working sets in the `RPE 7-9` range, and reserve `RPE 10` for planned 
 
 ## Why this matters
 
-The skill is designed to answer like an experienced coach, not a generic template generator. That means:
+The skill gives specific training advice:
 
 - precise units by default
 - realistic intensity targets
@@ -90,3 +90,4 @@ The skill is designed to answer like an experienced coach, not a generic templat
 ## Maintenance
 
 If `SKILL.md`, `references/`, or `templates/` change in a way that affects user-facing behavior, update this README in the same change so the summary stays accurate.
+

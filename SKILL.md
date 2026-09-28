@@ -10,7 +10,7 @@ Use this skill to turn an athlete's goal, equipment, and timeline into a concret
 Before writing a program, confirm what the program is for and when it needs to peak.
 Ask only for the missing information that materially changes the plan, then infer reasonable defaults to avoid answer fatigue.
 
-Canonical repo/worktree: `/home/carnufex/strength-coach`. The Codex skill path points here, so make updates in this checkout only.
+Canonical source: this `strength-coach` repository. Run renderer paths from its root and make changes in the active checkout.
 
 ## Intake Order
 1. Ask what the program is for, then ask for the goal, sport, event date, training age, injury limits, equipment, weekly frequency, session length, sleep, fatigue management, eating, and the athlete's best lifts or closest proxy lifts if any of those are missing and would materially change the plan.
@@ -40,9 +40,17 @@ Canonical repo/worktree: `/home/carnufex/strength-coach`. The Codex skill path p
 - When a strongman athlete finds fixed-volume weeks or heavy triples repetitive, consider the four-day RPE pyramid in `templates/strongman/strongman-rpe-pyramid-four-day.md`: ramp to one top set, back off at a lower RPE, and vary top-set reps across weeks. Its home-gym version uses seated low-cable rows, close-grip Slingshot bench, and rack-height shrugs on Day 3 instead of carries or unsupported rows. Keep raw bench after Day 1 log work and protect lower-back recovery after deadlifts. If the athlete requests no singles, keep the top set at three reps or more.
 - During peaking, keep sport specificity high: use the contest implement for strongman when possible, keep competition lifts central for powerlifting and weightlifting, and bias lagging muscle groups for bodybuilding.
 
+## Writing Style
+- Write like a practical strength coach. Lead with the work, then give a short reason for it. Use plain words and short sentences. Jim Wendler's direct training prose is a broad guide for tone; do not copy his wording.
+- Cut hype, sales language, invented precision, and generic filler. State what the lifter does, how hard, how it progresses, and what to change when recovery is poor.
+- Explain uncertainty in ordinary language. A schedule flag is a reason to check training results, not a diagnosis.
+
 ## Output Format
-- Write programs and workouts in Markdown.
-- Use clear headings and bullets.
+- For a complete multi-day program or prep block, create an interactive, self-contained HTML program document as the main artifact and an Excel training log from the same structured plan. Give a concise Markdown summary and links to both files in the conversation. For brief coaching answers and single-exercise recommendations, use Markdown without generating files.
+- Put the full plan in the HTML: goal, assumptions, mesocycles, every week and session, progression, exercise prescriptions, execution cues, alternatives, why each choice fits, and a short educational disclaimer. The document must open offline, print cleanly, and remain usable with a keyboard and text labels.
+- Author the program as schema-version-1 JSON following [program-doc/README.md](program-doc/README.md), using [program-doc/exercise-map.json](program-doc/exercise-map.json) as a checked starting point for muscle assignments. Render it with `node scripts/render-program.mjs <plan.json> <plan.html>` and generate the matching workbook with `node scripts/render-workbook.mjs <plan.json> <plan.xlsx>` using the configured artifact-tool runtime. Do not hand-edit the generated HTML or let the workbook diverge from the JSON.
+- Review every mesocycle and week against the intended progression and source template before delivering. Treat exercise-to-muscle mappings as coaching approximations; show direct and supporting sets separately. Recovery flags are prompts to review overlapping demanding sessions, not a percentage recovered or a guarantee of safety.
+- Keep the accompanying Markdown summary short and clear.
 - Include each exercise with `sets x reps @ RPE` when giving loading guidance.
 - Use feet for carries and other distance-based work unless the user explicitly asks for meters.
 - If the athlete provides a recent max or comparable lift, give an estimated working load range for the programmed lift and explain that it is an estimate based on the comparable lift.
@@ -53,7 +61,7 @@ Canonical repo/worktree: `/home/carnufex/strength-coach`. The Codex skill path p
 - Explain total volume when it affects progression, recovery, or peaking.
 - For peaking, reduce volume and increase intensity while keeping specificity high.
 - If the exact load is unclear, prefer the RPE target over a hard number.
-- Before any full template or prep plan, include a disclaimer block stating that the information is for educational purposes only, is not medical advice, and that the user should get clearance from a doctor or qualified clinician before starting.
+- Before any full template or prep plan, include a disclaimer block in the HTML and summary stating that the information is for educational purposes only, is not medical advice, and that the user should get clearance from a doctor or qualified clinician before starting.
 - When you give a finished template or prep block, end with a short assumptions review that lists what you inferred and what would need to change if the assumptions are wrong.
 
 ## Exercise Replacements

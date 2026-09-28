@@ -1,0 +1,2838 @@
+{
+  "schemaVersion": 1,
+  "id": "strongman-rebuild",
+  "title": "12-week strongman rebuild",
+  "sport": "Strongman",
+  "objective": "Rebuild into heavy triples",
+  "summary": "A three-day block centered on log press, deadlift, front squat, and farmer carries, with bench and back work twice each week.",
+  "rationale": "Rebuild tolerance first, raise strength through the middle weeks, then use controlled heavy triples. Main events retain priority; accessories stay capped.",
+  "goals": [
+    "Rebuild repeatable log, pull, squat, and carry work.",
+    "Keep bench and upper-back support twice weekly.",
+    "Reach heavy triples without singles or max attempts."
+  ],
+  "priorityMuscles": [
+    "quads",
+    "hamstrings",
+    "upper-back"
+  ],
+  "maxExercisesPerDay": 4,
+  "assumptions": [
+    "Three nonconsecutive training days are available each week.",
+    "No event date or personal recovery log was supplied; adjust with actual performance.",
+    "Combined slots may train more than one muscle; set counts are coaching approximations."
+  ],
+  "sources": [
+    {
+      "label": "Original 12-week workbook",
+      "url": "https://github.com/ryeceps/strength-coach/blob/main/assets/generated-programs/12_week_strongman_program.xlsx"
+    }
+  ],
+  "mesocycles": [
+    {
+      "title": "Rebuild",
+      "focus": "Rebuild",
+      "rationale": "Submaximal work establishes rhythm and tolerance.",
+      "weeks": [
+        {
+          "number": 1,
+          "phase": "Rebuild Volume",
+          "focus": "Rebuild Volume",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 5 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 8 @ RPE 6-7 + Row 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 60 ft @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 7.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 6 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 10 @ RPE 6-7 + Pulldown 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "phase": "Rebuild Volume",
+          "focus": "Rebuild Volume",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 5 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 8 @ RPE 6-7 + Row 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 60 ft @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 7.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 6 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 10 @ RPE 6-7 + Pulldown 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "phase": "Rebuild Volume",
+          "focus": "Rebuild Volume",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 5 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 8 @ RPE 6-7 + Row 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 60 ft @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 7.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 6 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 10 @ RPE 6-7 + Pulldown 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "phase": "Rebuild Volume",
+          "focus": "Rebuild Volume",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 5 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 8 @ RPE 6-7 + Row 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 60 ft @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 7.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "6 x 4 @ RPE 6-7",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 6 @ RPE 6-7",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 10 @ RPE 6-7 + Pulldown 4 x 10-15 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Strength build",
+      "focus": "Strength build",
+      "rationale": "Load and effort rise while volume stays controllable.",
+      "weeks": [
+        {
+          "number": 5,
+          "phase": "Strength Build",
+          "focus": "Strength Build",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "4 x 5 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 6 @ RPE 7-8 + Row 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 8.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 50 ft @ RPE 7-8",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 8.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 4-5 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 8 @ RPE 7-8 + Pulldown 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "phase": "Strength Build",
+          "focus": "Strength Build",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "4 x 5 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 6 @ RPE 7-8 + Row 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 8.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 50 ft @ RPE 7-8",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 8.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 4-5 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 8 @ RPE 7-8 + Pulldown 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "phase": "Strength Build",
+          "focus": "Strength Build",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "4 x 5 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 6 @ RPE 7-8 + Row 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 8.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 50 ft @ RPE 7-8",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 8.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 4-5 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 8 @ RPE 7-8 + Pulldown 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "phase": "Strength Build",
+          "focus": "Strength Build",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "4 x 5 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 4 x 6 @ RPE 7-8 + Row 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 8.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "6 x 50 ft @ RPE 7-8",
+                  "sets": 6,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 8.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "5 x 4 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "5 x 4-5 @ RPE 7-8",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 8.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 4 x 8 @ RPE 7-8 + Pulldown 4 x 8-12 @ RPE 8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heavy triples and pivot",
+      "focus": "Heavy triples and pivot",
+      "rationale": "Practice heavier triples, then deload or take one controlled test only when ready.",
+      "weeks": [
+        {
+          "number": 9,
+          "phase": "Heavy Triples",
+          "focus": "Heavy Triples",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "3 x 4 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 3 x 5 @ RPE 7-8 + Row 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "5 x 40-50 ft @ RPE 8-9",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 9.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 9.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "4 x 4 @ RPE 7",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 3 x 6 @ RPE 7-8 + Pulldown 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "phase": "Heavy Triples",
+          "focus": "Heavy Triples",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "3 x 4 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 3 x 5 @ RPE 7-8 + Row 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "5 x 40-50 ft @ RPE 8-9",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 9.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 9.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "4 x 4 @ RPE 7",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 3 x 6 @ RPE 7-8 + Pulldown 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "phase": "Heavy Triples",
+          "focus": "Heavy Triples",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 9.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "3 x 4 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 8.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 3 x 5 @ RPE 7-8 + Row 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "3-4 rounds: 15-25 raises + 10-20 curls",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 9.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "5 x 40-50 ft @ RPE 8-9",
+                  "sets": 5,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 9.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "3-4 x 8-12 @ RPE 7-8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "3-4 pump sets, 10-25 reps",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "Top 3 @ RPE 8-9, then 3 x 3 @ RPE 7-8",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 9.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "4 x 4 @ RPE 7",
+                  "sets": 4,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 3 x 6 @ RPE 7-8 + Pulldown 3-4 x 8-12 @ RPE 8",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 8.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "3-4 rounds: 15-25 rear delts + 12-20 triceps",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "phase": "Deload / Controlled Test",
+          "focus": "Deload / Controlled Test",
+          "note": "Use RPE to adjust the day's load; keep heavy work technically clean.",
+          "days": [
+            {
+              "weekday": 0,
+              "title": "Log Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Log clean and press",
+                  "prescription": "3 x 3 @ RPE 6-7",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Practice the clean and press with the contest implement.",
+                  "rpe": 7.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Front squat",
+                  "prescription": "3 x 3 @ RPE 6-7",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Bench press + chest-supported row",
+                  "prescription": "Bench 2-3 x 6 @ RPE 6 + Row 2-3 x 10-12 @ RPE 6-7",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 7.0
+                },
+                {
+                  "name": "Lateral raise + curls",
+                  "prescription": "2-3 rounds easy pump",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "side-delts",
+                    "biceps"
+                  ],
+                  "secondaryMuscles": [],
+                  "reason": "Finish with a small dose of arm or shoulder work."
+                }
+              ]
+            },
+            {
+              "weekday": 2,
+              "title": "Deadlift + Farmers",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Deadlift",
+                  "prescription": "3 x 3 @ RPE 6-7",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Pull heavy. Keep the deadlift moving.",
+                  "rpe": 7.0,
+                  "cue": "Set the brace and keep the bar path close; stop when positions deteriorate.",
+                  "alternatives": [
+                    "Trap-bar deadlift when the setup or tolerance requires it"
+                  ]
+                },
+                {
+                  "name": "Farmer carries",
+                  "prescription": "3 x 50 ft @ RPE 6",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "forearms",
+                    "upper-back"
+                  ],
+                  "secondaryMuscles": [
+                    "abs",
+                    "glutes"
+                  ],
+                  "reason": "Carry heavy. Train grip and bracing under load.",
+                  "rpe": 6.0,
+                  "cue": "Stand tall, keep the steps controlled, and set the handles down before grip or posture fails.",
+                  "alternatives": [
+                    "Trap-bar carry if farmer handles are unavailable"
+                  ]
+                },
+                {
+                  "name": "Romanian deadlift or hamstring curl",
+                  "prescription": "2-3 x 8-12 @ RPE 6-7",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "glutes",
+                    "hamstrings",
+                    "spinal-erectors"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "forearms"
+                  ],
+                  "reason": "Train the hamstrings without another heavy pull from the floor.",
+                  "rpe": 7.0
+                },
+                {
+                  "name": "Optional pump: curls + triceps, abs, or rear delts",
+                  "prescription": "2-3 easy sets",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short.",
+                  "optional": true
+                }
+              ]
+            },
+            {
+              "weekday": 4,
+              "title": "Front Squat Priority",
+              "focus": "Four capped exercise slots, with the priority work first.",
+              "exercises": [
+                {
+                  "name": "Front squat",
+                  "prescription": "3 x 3 @ RPE 6-7",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "quads",
+                    "glutes"
+                  ],
+                  "secondaryMuscles": [
+                    "adductors",
+                    "spinal-erectors"
+                  ],
+                  "reason": "Build the quads and stay upright under the bar.",
+                  "rpe": 7.0,
+                  "cue": "Keep the elbows high and torso stacked over the midfoot.",
+                  "alternatives": [
+                    "Safety-bar squat when front rack mobility limits the lift"
+                  ]
+                },
+                {
+                  "name": "Log press - clean once, press away",
+                  "prescription": "3 x 5 @ RPE 6",
+                  "sets": 3,
+                  "primaryMuscles": [
+                    "front-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back",
+                    "abs"
+                  ],
+                  "reason": "Get more press work without another full clean on every rep.",
+                  "rpe": 6.0,
+                  "cue": "Brace before the press and keep the implement close through the clean.",
+                  "alternatives": [
+                    "Axle clean and press when the log is unavailable"
+                  ]
+                },
+                {
+                  "name": "Close-grip or incline bench + lat pulldown",
+                  "prescription": "Bench 2-3 x 8 @ RPE 6 + Pulldown 2-3 x 10-12 @ RPE 6-7",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "chest",
+                    "triceps",
+                    "upper-back",
+                    "lats"
+                  ],
+                  "secondaryMuscles": [
+                    "front-delts",
+                    "biceps"
+                  ],
+                  "reason": "Press and row in the same slot. Keep upper-back work in the week.",
+                  "rpe": 7.0
+                },
+                {
+                  "name": "Rear delts + triceps",
+                  "prescription": "2-3 rounds easy pump",
+                  "sets": 2,
+                  "primaryMuscles": [
+                    "rear-delts",
+                    "triceps"
+                  ],
+                  "secondaryMuscles": [
+                    "upper-back"
+                  ],
+                  "reason": "Train the rear delts. Cut this first if time is short."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
